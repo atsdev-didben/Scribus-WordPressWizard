@@ -19,3 +19,16 @@ Follow the steps hereafter in order to retrive the desired posts :
 6. The plugin window will be closed after the import process, and the scribus page content will be updated.
 
 N.B : this plugin is based on wordpress API v2
+
+TO INSTALL : 
+
+Just copy the WordPressWizard.py python script into the share/scripts folder of your scribus install.
+
+Check the Python module dependencies :
+
+* tempfile
+* ByteIO
+* html + HTMLParser
+* requests
+
+You could install all of these by PIP under the python embeded in scribus application
